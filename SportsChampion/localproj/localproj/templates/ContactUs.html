@@ -1,0 +1,69 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+
+  <!-- Google Fonts -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" /> -->
+
+  <!-- CSS -->
+  <link href="{% static 'css/Contact.css'  %}" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <!-- <script src="https://kit.fontawesome.com/686bef32b8.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+  <header class="header">
+
+    <a href="/" class="logo"><span>S</span>ports</a>
+
+     <nav class="navbar">
+            <a href="/">{% trans "Home" %}</a>
+            <a href="/Events">{% trans "Events" %}</a>
+            <a href="/News">{% trans "News" %}</a>
+            <a href="/Sports">{% trans "Sports" %}</a>
+            <a href="/ContactUs">{% trans "Contact" %}</a>
+        </nav>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+</header>
+<div class="container">
+  <h1>Contact Us</h1>
+  <hr>
+  <h2>{% trans "Have any questions? We'd love to hear from you" %}</h2>
+  <div class="contact-items">
+      <div class="customer-care">
+          <h3>{% trans "Customer Care" %}</h3>
+          <p>{% trans "Our Support team is spread all over the world to give you fast response" %}</p>
+          <button id="cust-care">{% trans "Submit a Request" %} </button>
+          <a href="Form.html">{% trans "Questions" %}
+              </a>
+      </div>
+      <div class="write-us">
+          <h3>{% trans "Write Us" %}</h3>
+          <p>{% trans "You can write us if you have any queries" %}</p>
+         <a href="Form.html"> <button id="write">{% trans "Write" %}</button></a>
+    <!-- <a href="./contact-form.html"> <button id="write">Write</button></a>  u-->
+      </div>
+      <div class="sales-market">
+          <h3>{% trans "Sales and Marketing" %} </h3>
+          <p>{% trans "Get in touch with our sales and marketing team" %}</p>
+          <button id="sales">{% trans "Contact Sales" %}</button>
+          <a href="Form.html">{% trans "View Plans" %}</a>
+
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

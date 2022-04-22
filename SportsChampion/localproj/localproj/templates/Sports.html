@@ -1,0 +1,316 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link href="{% static 'css/Sports.css'  %}" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- theme toggler  -->
+
+    <div class="theme-toggler">
+
+        <div class="toggle-btn">
+            <i class="fas fa-cog"></i>
+        </div>
+
+        <h3>choose color</h3>
+
+        <div class="buttons">
+            <div class="theme-btn" style="background: #3867d6;"></div>
+            <div class="theme-btn" style="background: #f7b731;"></div>
+            <div class="theme-btn" style="background: #ff0033;"></div>
+            <div class="theme-btn" style="background: #20bf6b;"></div>
+            <div class="theme-btn" style="background: #fa8231;"></div>
+            <div class="theme-btn" style="background: #FC427B;"></div>
+        </div>
+
+    </div>
+
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="/" class="logo"><span>S</span>ports</a>
+
+           <nav class="navbar">
+            <a href="/">{% trans "Home" %}</a>
+            <a href="/Events">{% trans "Events" %}</a>
+            <a href="/News">{% trans "News" %}</a>
+            <a href="/Sports">{% trans "Sports" %}</a>
+            <a href="/ContactUs">{% trans "Contact" %}</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <br><br><br>
+        <br>
+        <h1 class="heading"><span>{% trans "Other" %}</span> {% trans "Sports" %} </h1>
+        <div class="row">
+
+
+            <div class="image">
+                <img src="{% static 'assets/img/f1.jpg' %}"alt="">
+            </div>
+
+            <div class="content">
+                <h3>{% trans "F1 Racing" %}</h3>
+                <p>{% trans "Other sports that are famous in Germany" %}</p>
+                <p>A Formula One car (also known as an F1 car) is a single-seat, open-cockpit, open-wheel formula racing
+                    car with substantial front and rear wings, and an engine positioned behind the driver, intended to
+                    be used in competition at Formula One racing events. The regulations governing the cars are unique
+                    to the championship and specify that cars must be constructed by the racing teams themselves, though
+                    the design and manufacture can be outsourced. Formula One cars are the fastest cars in the world
+                    around a race track, owing to very high cornering speeds achieved through the generation of large
+                    amounts of aerodynamic downforce.As a result of the amount of braking force and the total cornering
+                    envelope of a Formula One car (by the friction component of the tyre, the mass of the machine and
+                    the downforce generated)Formula One drivers experience frequent lateral g-loadings in excess of 5 g,
+                    and peak cornering forces of up to 7 lateral g</p>
+                <a href="https://www.formula1.com/" class="btn">{% trans "Formula F1" %}</a>
+            </div>
+
+        </div>
+
+        <h1 class="heading"><span>{% trans "Other" %}</span> {% trans "Sports In India" %} </h1>
+        <div class="row">
+
+
+            <div class="image">
+                <img src="{% static 'assets/img/Kabaddi.jpg' %}"alt="">
+            </div>
+
+            <div class="content">
+                <h3>{% trans "Kabaddi" %}</h3>
+                <p>{% trans "Other sports that are famous in India" %}</p>
+                <p>Kabaddi is a team sport that requires seven players in two teams. The aim of the sport is for a
+                    single player on offense to run into the opposing team’s court up to an extent and then tag out as
+                    many defenders of the opponent team as possible and return to the respective court anyhow without
+                    getting touched.
+                    Kabaddi makes your body stronger and healthier, gives a fighter instinct. The chanting of the name
+                    kabaddi helps your internal organs, your heart, your lungs to become more strong and healthy. </p>
+                <a href="https://www.prokabaddi.com/" class="btn">Pro Kabaddi</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service" id="service">
+
+        <h1 class="heading"><span>{% trans "World-Wide" %}</span>{% trans " Sports" %} </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-basketball-ball"></i>
+                <h3>{% trans "BasketBall" %}</h3>
+                <p>{% trans "Basketball is very famous around the world, Famous sports in Serbia." %}</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-skiing"></i>
+                <h3>{% trans "Skiing" %}</h3>
+                <p>{% trans "Skiing give us heaven feel. It can be only done in snow." %}</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-biking"></i>
+                <h3>{% trans "Biking" %}</h3>
+                <p>{% trans "Biking is loved by everyone" %}</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-swimmer"></i>
+                <h3>{% trans "Swimming" %}</h3>
+                <p>{% trans "This sports need more work on breathing." %}</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hockey-puck"></i>
+                <h3>{% trans "Hockey" %}</h3>
+                <p>{% trans "National Sport of India" %}</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+
+
+    <!-- price section starts  -->
+
+    <section class="price" id="price">
+
+        <h1 class="heading"><span>{% trans "Subscription" %}</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">{% trans "Watch News" %}</h3>
+                <h3 class="amount">€9.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>{% trans "Latest Sports News" %}</li>
+                    <li> <i class="fas fa-check"></i>{% trans "First to know" %} </li>
+                    <li> <i class="fas fa-check"></i> {% trans "Truth" %} </li>
+                    <li> <i class="fas fa-check"></i>{% trans " Amazing Articles" %} </li>
+                    <li> <i class="fas fa-check"></i> {% trans "Best advices" %} </li>
+                </ul>
+                <a href="#" class="btn">{% trans "Check out" %}</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">{% trans "Match party" %}</h3>
+                <h3 class="amount">€19.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>{% trans "Visual Parties" %}</li>
+                    <li> <i class="fas fa-check"></i> {% trans "Live Session" %} </li>
+                    <li> <i class="fas fa-check"></i> {% trans "Watch together" %} </li>
+                    <li> <i class="fas fa-check"></i> {% trans "Clips" %} </li>
+                    <li> <i class="fas fa-check"></i> {% trans "Live with fans" %} </li>
+                </ul>
+                <a href="#" class="btn">{% trans "Check out" %}</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">{% trans "No Ads" %}</h3>
+                <h3 class="amount">€14.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>{% trans "Free off Advertisement" %}</li>
+                    <li> <i class="fas fa-check"></i> {% trans "No disturbance" %}</li>
+                    <li> <i class="fas fa-check"></i> {% trans "Extra option available" %} </li>
+                    <li> <i class="fas fa-check"></i> {% trans "Video quality Hd" %}</li>
+                    <li> <i class="fas fa-check"></i> {% trans "Retro Reels" %} </li>
+                </ul>
+                <a href="#" class="btn">{% trans "Check out" %}</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">{% trans "Full Package" %}</h3>
+                <h3 class="amount">€39.99</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>{% trans "Customise facility option" %}</li>
+                    <li> <i class="fas fa-check"></i>{% trans "Hoodies" %}</li>
+                    <li> <i class="fas fa-check"></i> {% trans "Outfit" %}</li>
+                    <li> <i class="fas fa-check"></i> {% trans "No cost Fun" %}</li>
+                    <li> <i class="fas fa-check"></i>{% trans "Lucky prizes" %}  </li>
+                </ul>
+                <a href="#" class="btn">{% trans "Check out" %}</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- price section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="reivew" id="review">
+
+        <h1 class="heading">{% trans "Famous" %}<span> {% trans "Quotes" %}</span></h1>
+
+        <div class="review-slider swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{% static 'assets/img/pic-1.png' %}"alt="">
+                        <div class="user-info">
+                            <h3>Franz Beckenbauer</h3>
+                            <span>Famous footballer</span>
+                        </div>
+                    </div>
+                    <p>"Confident words uttered by Bayern München legend Franz Beckenbauer after Germany won the World
+                        Cup in 1990."</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{% static 'assets/img/pic-2.png' %}"alt="">
+                        <div class="user-info">
+                            <h3>Herbert Zimmermann.</h3>
+                            <span>Journalist</span>
+                        </div>
+                    </div>
+                    <p>"Schäfer delivers a cross into the penalty box ... header ... cleared. Rahn should shoot from
+                        deep! Rahn shoots! Goal! Goal! Goal! Goal!" </p>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{% static 'assets/img/pic-3.png' %}"alt="">
+
+                        <div class="user-info">
+                            <h3>Mahender Singh Dhoni</h3>
+                            <span>{% trans "Retired Captain of India" %}</span>
+                        </div>
+                    </div>
+                    <p>{% trans "A loss makes you humble. It tests the other batsmen and bowlers. Also, if you keep winning you
+                        don't know what area you need to work on." %}</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="{% static 'assets/img/pic-4.png' %}"alt="">
+                        <div class="user-info">
+                            <h3>Shane Warne</h3>
+                            <span>Cricketer</span>
+                        </div>
+                    </div>
+                    <p>"Part of the art of bowling spin is to make the batsman think something special is happening when
+                        it isn't."</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="{% static 'js/script.js'  %}"></script>
+
+
+
+</body>
+
+</html>

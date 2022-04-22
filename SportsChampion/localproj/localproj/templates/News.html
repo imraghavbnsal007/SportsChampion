@@ -1,0 +1,335 @@
+{% load i18n %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports News</title>
+  <!-- css link -->
+    <link href="{% static 'css/News.css'  %}" rel="stylesheet" />
+
+  <!-- fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <div id="container">
+    <!-- logo -->
+    <header class="header">
+
+      <a href="/" class="logo"><span>S</span>ports</a>
+
+        <nav class="navbar">
+            <a href="/">{% trans "Home" %}</a>
+            <a href="/Events">{% trans "Events" %}</a>
+            <a href="/News">{% trans "News" %}</a>
+            <a href="/Sports">{% trans "Sports" %}</a>
+            <a href="/ContactUs">{% trans "Contact" %}</a>
+        </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+
+  </header>
+
+    <!-- image -->
+    <div id="image">
+        <img src="{% static 'assets/img/Football_Player.png' %}"alt="">
+    </div>
+
+    <!-- content -->
+    <div id="content">
+        <h2>{% trans "News" %}</h2>
+        <h4>& {% trans "Updates" %}</h4>
+    </div>
+
+    <!-- icons -->
+    <div id="icons">
+        <!-- visit => "fontawesome.com" for icons -->
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <!-- pagination -->
+    <div id="pagination">
+        <!-- left arrow -->
+        <a href="/Events"><i class="fas fa-angle-left"></i></a>
+        <!-- right arrow -->
+        <a href="/Sports"><i class="fas fa-angle-right"></i></a>
+    </div>
+
+    <!-- lines -->
+    <div id="line1"></div>
+    <div id="line2"></div>
+</div>
+  <div class="news red full-width">
+    <span>{% trans "Breaking News" %}</span>
+    <ul class="scrollLeft">
+      <b><li><a href="https://www.skysports.com/football/news/11095/12592934/liverpool-vs-manchester-united-who-would-make-it-into-a-combined-xi-between-the-sides"><b>{% trans "Liverpool vs Manchester United: Who would make it into a combined XI between the sides? -Would Cristiano Ronaldo get in ahead of out-of-form Mohamed Salah? Does David de Gea get in ahead of Alisson in goal? " %}</b></a></li>
+      <li><a href="https://www.skysports.com/football/live-blog/11065/12507208/the-football-news-latest-updates-column-live"><b>{% trans "Fernandes involved in car crash" %} </b> </a></li>
+      <li><a href="https://www.skysports.com/football/chelsea-vs-crystal-palace/report/463284"><b>{% trans "Chelsea 2-0 Crystal Palace: Ruben Loftus-Cheek and Mason Mount send Blues into third consecutive FA Cup final" %}</b></a></li>
+        <li><a href="https://www.skysports.com/cricket/news/12123/12592714/england-coach-and-captain-contenders-who-could-rob-key-go-for-to-lead-test-turnaround"><b>{% trans "England coach and captain contenders: Who could Rob Key go for to lead Test turnaround?" %} </b></a></li>
+        <li><a href="https://www.skysports.com/cricket/news/12123/12589854/anya-shrubsole-england-2017-world-cup-hero-retires-from-international-cricket"><b>{% trans "Anya Shrubsole: England 2017 World Cup hero retires from international cricket" %}</b></a></li>
+        <li><a href="https://www.cricbuzz.com/cricket-news/121932/ramiz-raja-reveals-plan-of-u19-version-of-pakistan-super-league"><b>{% trans "Breaking News" %}Ramiz Raja reveals plan of U19 version of Pakistan Super League</b></a></li>
+      <li><a href="https://www.cricbuzz.com/cricket-news/121927/england-new-zealand-set-to-tour-pakistan-in-november-december"><b>{% trans "Breaking News" %}England, New Zealand set to tour Pakistan in November-December</b></a></li>
+      <li><a href="https://www.cricbuzz.com/cricket-news/121889/usa-cricket-welcomes-2024-t20-world-cup-berth"><b>{% trans "Breaking News" %}USA Cricket welcomes 2024 T20 World Cup berth</b></a></li></b>
+    </ul>
+  </div>
+  <div id="Container2image">
+    <div id=container2>
+      <img src="{% static 'assets/img/trophy.jpg' %}"alt="">
+      <a href="https://www.europeanchampionships.com/">
+        <h2 class="text">{% trans "NINE EUROPEAN" %}<br>{% trans "CHAMPIONSHIPS 'UNDER ONE" %}<br> {% trans "ROOF" %}</h2>
+      </a>
+
+      <br>
+      <p class="p">
+        <b>................................................................................................</b><br>
+        {% trans "European Championships Munich 2022 will be the biggest sports event in Germany since the 1972 Summer Olympics." %}
+
+        <b>From 11-21 August 2022</b>, {% trans "European sport will be united as its best athletes compete for the highest
+        accolade of their sport on the continent" %} – the title of ‘European Champion’. The second edition of the European
+        Championships will feature nine Olympic sports: Athletics, Beach Volleyball, Canoe Sprint, Cycling, Gymnastics,
+        Rowing, Sport Climbing, Table Tennis, and Triathlon.
+
+        Along with the Olympiapark at the heart of the event, the entire city will dress up for a glorious and
+        unforgettable spectacle of sport and culture – a fitting way to celebrate a golden jubilee.
+      </p>
+      <br>
+
+      <img src="{% static 'assets/img/Premier.jpg' %}"alt="">
+      <a href="https://www.skysports.com/premier-league-table">
+        <h2 class="text">{% trans "PREMIER LEAGUE" %}<br>2021/2022 SEASON<br></h2>
+      </a>
+      <br>
+
+      <p class="p">
+        <b>................................................................................................</b><br>
+        <b>{% trans "The league takes place between August and May and involves the teams playing each other home and away across
+          the season, a total of 380 matches. Three points are awarded for a win, one point for a draw and none for a
+          defeat, with the team with the most points at the end of the season winning the Premier League title." %}
+          </b>
+      </p>
+      <br>
+
+      <img src="{% static 'assets/img/ipl.jpg' %}"alt="">
+      <a href="https://www.iplt20.com/">
+        <h2 class="text">{% trans "Indian PREMIER LEAGUE(IPL)" %}<br>2022<br></h2>
+      </a>
+      <br>
+
+      <p class="p">
+        <b>................................................................................................</b><br>
+        <b>
+          {% trans "The Indian Premier League (IPL) is a Twenty-20 cricket tournament league established with the objective of promoting cricket in India and thereby nurturing young and talented players. The league is an annual event where teams representing different Indian cities compete against each other." %}</b>
+      </p>
+      <br>
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Find all the latest updates on given links, Everything relaterd to sports will be updated. We believe in truth
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">SKYSPORTS</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.skysports.com/roi" class="text-white">Home Page</a>
+            </li>
+            <li>
+              <a href="https://www.skysports.com/football" class="text-white">Football</a>
+            </li>
+            <li>
+              <a href="https://www.skysports.com/cricket" class="text-white">Cricket</a>
+            </li>
+            <li>
+              <a href="https://www.skysports.com/more-sports" class="text-white">More Sports</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">TALKsPORT</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://talksport.com/football/" class="text-white">Footbal Updates</a>
+            </li>
+            <li>
+              <a href="https://talksport.com/football/premier-league/" class="text-white">Premiur Leagues</a>
+            </li>
+            <li>
+              <a href="https://talksport.com/football/world-cup-2022/" class="text-white">World Cup 2022</a>
+            </li>
+            <li>
+              <a href="https://talksport.com/sport/betting-tips/" class="text-white">Betting tips</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">CrickBuzz</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.cricbuzz.com/" class="text-white">Home Page</a>
+            </li>
+            <li>
+              <a href="https://www.cricbuzz.com/cricket-series/4061/indian-premier-league-2022/videos" class="text-white">Videos</a>
+            </li>
+            <li>
+              <a href="https://www.cricbuzz.com/cricket-schedule/series" class="text-white">Cricket Series</a>
+            </li>
+            <li>
+              <a href="" class="text-white">international Schedule</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">About Us</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Advertise with us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Sponseres</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Creativity team</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Apply</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

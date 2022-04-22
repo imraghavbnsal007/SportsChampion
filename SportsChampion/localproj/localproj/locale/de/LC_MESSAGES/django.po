@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-19 13:37+0100\n"
+"PO-Revision-Date: 2022-04-21 03:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: .\SportsChampion\views.py:9
+msgid "Welcome to language translation"
+msgstr "Willkommen bei der Sprachübersetzung"
+
+#: .\localproj\settings.py:121
+msgid "German"
+msgstr "Deutsch"
+
+#: .\localproj\settings.py:122
+msgid "Hindi"
+msgstr "Hindi"
+
+#: .\localproj\settings.py:123
+msgid "English"
+msgstr "Englisch"
+
+msgid "Cricket and Football are both field games and team sports, and both consist of 11 players-a-side. However, key differernces between Cricket and Football include the field’s shape and size, ball size and hardness, type of protective gear used, and the lack of a goalpost in cricket and stumps in Football."
+msgstr "Cricket und Fußball sind beide Feldspiele und Mannschaftssportarten, und beide bestehen aus 11 Spielern pro Seite. Zu den wichtigsten Unterschieden zwischen Cricket und Fußball gehören jedoch die Form und Größe des Feldes, die Ballgröße und -härte, die Art der verwendeten Schutzausrüstung und das Fehlen eines Torpfostens im Cricket und Stümpfe im Fußball."
+
+msgid "Football & Cricket"
+msgstr "Fußball & Cricket"
+
+msgid "Our Events"
+msgstr "Unsere Veranstaltungen"
+
+msgid "World Most Famous"
+msgstr "Berühmteste Welt"
+
+msgid "Games"
+msgstr "Spiele"
+
+msgid "Wanna know What is Football and Cricket?"
+msgstr "Möchten Sie wissen, was Fußball und Cricket sind?"
+
+msgid "Football"
+msgstr "Fußball"
+
+msgid "Which one is famous?"
+msgstr "Welche ist berühmt?"
+
+msgid "For more"
+msgstr "Für mehr"
+
+msgid "Cricket and Football have very different time durations. There are three types of match formats in Cricket. The time duration for each of those varies from each other."
+msgstr "Cricket und Fußball haben sehr unterschiedliche Zeitdauern. Es gibt drei Arten von Spielformaten in Cricket. Die Zeitdauer für jede davon variiert voneinander."
+
+msgid "Football has a much simpler rule system as compared to Cricket. On the other hand, Cricket has many terms and rules. From LBW to No ball, wide ball, etc, the rules can get a little intimidating. This can get a little complicated for a viewer at first sight. Some might consider the complex rules to be interesting while some might just find it straight out confusing."
+msgstr "Fußball hat im Vergleich zu Cricket ein viel einfacheres Regelsystem. Auf der anderen Seite hat Cricket viele Begriffe und Regeln. Von LBW bis No Ball, Wide Ball usw. können die Regeln ein wenig einschüchternd werden. Das kann für einen Betrachter auf den ersten Blick etwas kompliziert werden. Einige finden die komplexen Regeln vielleicht interessant, während andere sie einfach nur verwirrend finden."
+
+msgid "Our"
+msgstr "Unsere"
+
+msgid "Home"
+msgstr "Heim"
+
+msgid "Events"
+msgstr "Veranstaltungen"
+
+msgid "News"
+msgstr "Nachricht"
+
+msgid "Sports"
+msgstr "Sport"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Football information"
+msgstr "Informationen zum Fußball"
+
+msgid "Indian Premier League"
+msgstr "Indische Premier League"
+
+msgid "contact info"
+msgstr "Kontaktinformation"
+
+msgid "follow us"
+msgstr "Folge uns"
+
+msgid "German Bundesliga"
+msgstr "Deutsche Bundesliga"
+
+msgid "Venue"
+msgstr "Veranstaltungsort"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "Bookings"
+msgstr "Buchungen"
+
+msgid "For more bookings Click here"
+msgstr "Für weitere Buchungen klicken Sie hier"
+
+msgid "Cricket- T20 Leagues"
+msgstr "Cricket – T20 Ligen"
+
+msgid "Updates"
+msgstr "Aktualisierung"
+
+msgid "Breaking News"
+msgstr "Aktuelle Nachrichten"
+
+msgid "Liverpool vs Manchester United: Who would make it into a combined XI between the sides? -Would Cristiano Ronaldo get in ahead of out-of-form Mohamed Salah? Does David de Gea get in ahead of Alisson in goal? "
+msgstr "Liverpool gegen Manchester United: Wer würde es in eine kombinierte Startelf zwischen den Mannschaften schaffen? -Würde Cristiano Ronaldo vor dem außer Form geratenen Mohamed Salah einsteigen? Setzt sich David de Gea im Tor vor Alisson durch?"
+
+msgid "Fernandes involved in car crash"
+msgstr "Fernandes in Autounfall verwickelt"
+
+msgid "Chelsea 2-0 Crystal Palace: Ruben Loftus-Cheek and Mason Mount send Blues into third consecutive FA Cup final"
+msgstr "Chelsea - Crystal Palace 2:0: Ruben Loftus-Cheek und Mason Mount schicken die Blues ins dritte FA-Cup-Finale in Folge"
+
+msgid "England coach and captain contenders: Who could Rob Key go for to lead Test turnaround?"
+msgstr "Englands Trainer- und Kapitänsanwärter: Für wen könnte Rob Key die Testwende anführen?"
+
+msgid "Anya Shrubsole: England 2017 World Cup hero retires from international cricket"
+msgstr "Anya Shrubsole: Englands WM-Held von 2017 zieht sich vom internationalen Cricket zurück"
+
+msgid "Ramiz Raja reveals plan of U19 version of Pakistan Super League"
+msgstr "Ramiz Raja enthüllt den Plan der U19-Version der Pakistan Super League"
+
+msgid "England, New Zealand set to tour Pakistan in November-December"
+msgstr "England und Neuseeland werden im November-Dezember Pakistan bereisen"
+
+msgid "USA Cricket welcomes 2024 T20 World Cup berth"
+msgstr "USA Cricket heißt Startplatz für die T20-Weltmeisterschaft 2024 willkommen"
+
+
+msgid "NINE EUROPEAN"
+msgstr "NEUN EUROPÄISCHE"
+
+msgid "CHAMPIONSHIPS 'UNDER ONE"
+msgstr "MEISTERSCHAFTEN „UNTER EINS"
+
+msgid "ROOF"
+msgstr "DACH"
+
+msgid "European Championships Munich 2022 will be the biggest sports event in Germany since the 1972 Summer Olympics."
+msgstr "Die Europameisterschaft München 2022 wird das größte Sportereignis in Deutschland seit den Olympischen Sommerspielen 1972."
+
+msgid "European sport will be united as its best athletes compete for the highest accolade of their sport on the continent"
+msgstr "Der europäische Sport wird vereint sein, wenn seine besten Athleten um die Höchsten kämpfen Auszeichnung ihres Sports auf dem Kontinent"
+
+msgid "F1 Racing"
+msgstr "F1-Rennen"
+
+msgid "Other"
+msgstr "Sonstiges"
+
+msgid "Other sports that are famous in Germany"
+msgstr "Andere Sportarten, die in Deutschland berühmt sind"
+
+msgid "Formula F1"
+msgstr "Formel F1"
+
+msgid "Sports In India"
+msgstr "Sport in Indien"
+
+msgid "Other sports that are famous in India"
+msgstr "Andere Sportarten, die in Indien berühmt sind"
+
+msgid "Kabaddi"
+msgstr "Kabaddi"
+
+msgid "World-Wide"
+msgstr "Weltweit"
+
+msgid "BasketBall"
+msgstr "Basketball"
+
+msgid "Basketball is very famous around the world, Famous sports in Serbia."
+msgstr "Basketball ist auf der ganzen Welt sehr berühmt, berühmte Sportarten in Serbien."
+
+msgid "Skiing"
+msgstr "Skifahren"
+
+msgid "Skiing give us heaven feel. It can be only done in snow."
+msgstr "Skifahren gibt uns ein himmlisches Gefühl. Das geht nur bei Schnee."
+
+msgid "Biking"
+msgstr "Radfahren"
+
+msgid "Biking is loved by everyone"
+msgstr "Radfahren wird von allen geliebt"
+
+msgid "Swimming"
+msgstr "Schwimmen"
+
+msgid "This sports need more work on breathing."
+msgstr "Dieser Sport erfordert mehr Atemarbeit."
+
+msgid "Hockey"
+msgstr "Hockey"
+
+msgid "National Sport of India"
+msgstr "Nationalsport von Indien"
+
+msgid "Subscription"
+msgstr "Abonnement"
+
+msgid "Watch News"
+msgstr "Nachrichten ansehen"
+
+msgid "Latest Sports News"
+msgstr "Neueste Sportnachrichten"
+
+msgid "First to know"
+msgstr "Zuerst wissen3"
+
+msgid "Truth"
+msgstr "Wahrheit"
+
+msgid "Amazing Articles"
+msgstr "Erstaunliche Artikel"
+
+msgid "Best advices"
+msgstr "Beste Ratschläge"
+
+msgid "Check out"
+msgstr "Kasse"
+
+msgid "Match party"
+msgstr "Spielparty"
+
+msgid "Visual Parties"
+msgstr "Visuelle Partys"
+
+msgid "Live Session"
+msgstr "Live-Sitzung"
+
+msgid "Watch together"
+msgstr "Gemeinsam gucken"
+
+msgid "Clips"
+msgstr "Klammern"
+
+msgid "Live with fans"
+msgstr "Lebe mit den Fans"
+
+msgid "No Ads"
+msgstr "Keine Werbung"
+
+msgid "Free off Advertisement"
+msgstr "Kostenlose Werbung"
+
+msgid "No disturbance"
+msgstr "Keine Störung"
+
+msgid "Extra option available"
+msgstr "Zusatzoption verfügbar"
+
+msgid "Video quality Hd"
+msgstr "Videoqualität Hd"
+
+msgid "Retro Reels"
+msgstr "Retro-Rollen"
+
+msgid "Full Package"
+msgstr "Komplettpaket"
+
+msgid "Customise facility option"
+msgstr "Einrichtungsoption anpassen"
+
+msgid "Famous"
+msgstr "Bekannt"
+
+msgid "Quotes"
+msgstr "Zitate"
+
+msgid "Have any questions? We'd love to hear from you"
+msgstr "Haben Sie Fragen? Wir würden uns freuen, von Ihnen zu hören"
+
+msgid "Our Support team is spread all over the world to give you fast response"
+msgstr "Unser Support-Team ist auf der ganzen Welt verteilt, um Ihnen schnell zu antworten"
+
+msgid "Customer Care"
+msgstr "Kundendienst"
+
+msgid "Submit a Request"
+msgstr "Einen Antrag stellen"
+
+msgid "Questions"
+msgstr "Fragen"
+
+msgid "Write Us"
+msgstr "Schreiben Sie uns"
+
+msgid "You can write us if you have any queries"
+msgstr "Sie können uns schreiben, wenn Sie Fragen haben"
+
+msgid "Write"
+msgstr "Schreiben"
+
+msgid "Sales and Marketing"
+msgstr "Verkauf und Marketing"
+
+msgid "Get in touch with our sales and marketing team"
+msgstr "Kontaktieren Sie unser Vertriebs- und Marketingteam"
+
+msgid "Contact Sales"
+msgstr "Wenden Sie sich an den Vertrieb"
+
+msgid "View Plans"
+msgstr "Pläne anzeigen"
+

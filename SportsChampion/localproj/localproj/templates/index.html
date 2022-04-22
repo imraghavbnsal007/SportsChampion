@@ -1,0 +1,280 @@
+{% load i18n %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Organizer</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link href="{% static 'css/styles.css'  %}" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="/" class="logo"><span>S</span>{% trans "ports" %}</a>
+
+        <nav class="navbar">
+            <a href="/">{% trans "Home" %}</a>
+            <a href="/Events">{% trans "Events" %}</a>
+            <a href="/News">{% trans "News" %}</a>
+            <a href="/Sports">{% trans "Sports" %}</a>
+            <a href="/ContactUs">{% trans "Contact" %}</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Sports ChampionBuzz <span> {% trans "Football & Cricket" %} </span></h3>
+            <a href="/Events" class="btn">{% trans "Our Events" %}</a>
+        </div>
+
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="{% static 'assets/img/slide-1.jpg' %}"alt=""></div>
+                <div class="swiper-slide"><img src="{% static 'assets/img/slide-2.jpg' %}"alt=""></div>
+                <div class="swiper-slide"><img src="{% static 'assets/img/slide-3.jpg' %}"alt=""></div>
+                <div class="swiper-slide"><img src="{% static 'assets/img/slide-4.jpg' %}"alt=""></div>
+                <div class="swiper-slide"><img src="{% static 'assets/img/slide-5.jpg' %}"alt=""></div>
+                <div class="swiper-slide"><img src="{% static 'assets/img/slide-6.jpg' %}"alt=""></div>
+            </div>
+        </div>
+
+
+
+    <!-- home section ends -->
+
+    <!-- service section starts  -->
+
+
+
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>{% trans "World Most Famous" %}</span> {% trans "Games" %}</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="{% static 'assets/img/about-img.jpg' %}"alt="">
+            </div>
+
+            <div class="content">
+                <h3>{% trans "Wanna know What is Football and Cricket?" %}</h3>
+                <p>{% trans "Cricket and Football are both field games and team sports, and both consist of 11 players-a-side. However, key differernces between Cricket and Football include the field’s shape and size, ball size and hardness, type of protective gear used, and the lack of a goalpost in cricket and stumps in Football." %}</p>
+
+
+                <a href="https://cricketmastery.com/difference-between-cricket-and-football/" class="btn">{% trans "For more" %}</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>Cricket</span> Vs <span>{% trans "Football" %}</span></h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="{% static 'assets/img/cvsf.jpg' %}"alt="">
+            </div>
+
+            <div class="content">
+                <h3>{% trans "Which one is famous?" %}</h3>
+                <p>{% trans "Cricket and Football have very different time durations. There are three types of match formats in Cricket. The time duration for each of those varies from each other." %} </p>
+                <p>{% trans "Football has a much simpler rule system as compared to Cricket. On the other hand, Cricket has many terms and rules. From LBW to No ball, wide ball, etc, the rules can get a little intimidating. This can get a little complicated for a viewer at first sight. Some might consider the complex rules to be interesting while some might just find it straight out confusing." %}</p>
+                <a href="https://mybestguide.com/sports/cricket-vs-football/" class="btn">{% trans "For more" %}</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">{% trans "Our" %} <span>G.O.A.T</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-1.jpg' %}"alt="">
+            <h3 class="title">Football</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-2.jpg' %}"alt="">
+            <h3 class="title">Cricket</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-3.jpg' %}"alt="">
+            <h3 class="title">Football</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-4.jpg' %}"alt="">
+            <h3 class="title">Cricket</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-5.jpg' %}"alt="">
+            <h3 class="title">Football</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-6.jpg' %}"alt="">
+            <h3 class="title">Cricket</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-7.jpg' %}"alt="">
+            <h3 class="title">Football</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'assets/img/g-8.jpg' %}"alt="">
+            <h3 class="title">Cricket</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+    <div class="theme-toggler">
+
+        <div class="toggle-btn">
+            <i class="fas fa-cog"></i>
+        </div>
+
+        <h3>choose color</h3>
+
+        <div class="buttons">
+            <div class="theme-btn" style="background: #3867d6;"></div>
+            <div class="theme-btn" style="background: #f7b731;"></div>
+            <div class="theme-btn" style="background: #ff0033;"></div>
+            <div class="theme-btn" style="background: #20bf6b;"></div>
+            <div class="theme-btn" style="background: #fa8231;"></div>
+            <div class="theme-btn" style="background: #FC427B;"></div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script src="{% static 'js/script.js'  %}"></script>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>{% trans "Football information" %}</h3>
+                <a href="https://www.munich2022.com/en/european-championships"> <i class="fas fa-map-marker-alt"></i>European Championships</a>
+                <a href="https://www.munich2022.com/en/munich-2022"> <i class="fas fa-map-marker-alt"></i> Munich-2022 </a>
+                <a href="https://www.munich2022.com/en/sustainability"> <i class="fas fa-map-marker-alt"></i> Sustainability</a>
+                <a href="https://www.munich2022.com/en/host-city"> <i class="fas fa-map-marker-alt"></i> Host City</a>
+                <a href="https://www.munich2022.com/en/newsletter"> <i class="fas fa-map-marker-alt"></i>newsletter</a>
+            </div>
+
+            <div class="box">
+                <h3>{% trans "Indian Premier League" %}</h3>
+                <a href="https://www.iplt20.com/teams/chennai-super-kings"> <i class="fas fa-arrow-right"></i> Chennai Super Kings </a>
+                <a href="https://www.iplt20.com/teams/mumbai-indians"> <i class="fas fa-arrow-right"></i> Mumbai indian </a>
+                <a href="https://www.iplt20.com/teams/delhi-capitals"> <i class="fas fa-arrow-right"></i> Delhi Capitals </a>
+                <a href="https://www.iplt20.com/teams/punjab-kings"> <i class="fas fa-arrow-right"></i> Punjab Kings </a>
+                <a href="https://www.iplt20.com/teams/kolkata-knight-riders"> <i class="fas fa-arrow-right"></i> Kolkata Knight Riders </a>
+                <a href="https://www.iplt20.com/teams/lucknow-super-giants"> <i class="fas fa-arrow-right"></i> Lucknow Super Gaints </a>
+                <a href="https://www.iplt20.com/teams/royal-challengers-bangalore"> <i class="fas fa-arrow-right"></i> Royal Challengers Banglore </a>
+                <a href="https://www.iplt20.com/teams/rajasthan-royals"> <i class="fas fa-arrow-right"></i> Rajasthan Royal</a>
+                <a href="https://www.iplt20.com/teams/gujarat-titans"> <i class="fas fa-arrow-right"></i> Gujarat Titans </a>
+                <a href="https://www.iplt20.com/teams/sunrisers-hyderabad"> <i class="fas fa-arrow-right"></i> Sunrise Hyderabad </a>
+            </div>
+            <div class="box">
+                <h3>{% trans "contact info" %}</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> SportsandEvents@gmail.com </a>
+
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Dublin- Ireland </a>
+            </div>
+
+            <div class="box">
+                <h3>{% trans "follow us" %}</h3>
+                <a href="https://facebook.com//"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://twitter.com/"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://instagram.com/"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://linkedin.com/"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="https://www.youtube.com/"> <i class="fab fa-youtube"></i> youtube </a>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/Form.css'  %}" rel="stylesheet" />
+    <title>Contact form</title>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="/" class="logo"><span>S</span>ports</a>
+
+           <nav class="navbar">
+            <a href="/">{% trans "Home" %}</a>
+            <a href="/Events">{% trans "Events" %}</a>
+            <a href="/News">{% trans "News" %}</a>
+            <a href="/Sports">{% trans "Sports" %}</a>
+            <a href="/ContactUs">{% trans "Contact" %}</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <div class="container">
+        <h2>{% trans "Write Us" %}</h2>
+        <form action="">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="text" name="name" id="name" placeholder=" enter your name">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+
+</html>

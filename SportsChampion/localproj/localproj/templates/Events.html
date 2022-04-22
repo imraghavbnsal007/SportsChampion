@@ -1,0 +1,294 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports Events</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link href="{% static 'css/Events.css'  %}" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/686bef32b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+      <a href="/" class="logo"><span>S</span>ports</a>
+
+       <nav class="navbar">
+            <a href="/">{% trans "Home" %}</a>
+            <a href="/Events">{% trans "Events" %}</a>
+            <a href="/News">{% trans "News" %}</a>
+            <a href="/Sports">{% trans "Sports" %}</a>
+            <a href="/ContactUs">{% trans "Contact" %}</a>
+        </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+
+  </header>
+
+<br>
+
+  <div class="event-container">
+    <h3 class="year"><span>2020</span></h3>
+    <a href="https://www.stubhub.ie/vfl-bochum-tickets-vfl-bochum-bochum-ruhrstadion-6-5-2022/event/104903006/?gcid=chAFF-_-geoIE-_-genAllTix-_-dt000101-_-cmp3215737-_-partticketbis-TT&tduid=a6d91ed9d73aafa76b2e31c4be3c1457&utm_content=link">
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">06</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+
+      <div class="event-right">
+        <h3 class="event-title"><span></span>Bochum vs Arminia Bielefeld</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Vonovia Ruhrstadion</b>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>19:30Pm</b>
+        </div>
+      </div>
+    </div>
+  </a>
+    <h3 class="year"><span>{% trans "German Bundesliga" %}</span></h3>
+    <a href="https://www.footballticket.club/furth-borussia-dortmund-tickets-bundesliga/">
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">7</div>
+            <div class="month">{% trans "May" %}</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title"><span>FÜRTH - BORUSSIA DORTMUND</span></h3>
+
+          <div class="event-description">
+            <b>{% trans "Venue" %}: Fürth,Sportpark Ronhof</b>>
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png" alt="" /> <b>15:30Pm</b>
+          </div>
+        </div>
+        </div>
+      </a>
+
+    <a href="https://www.stubhub.ie/fc-bayern-munich-tickets-fc-bayern-munich-munchen-allianz-arena-6-5-2022/event/104900015/?gcid=chAFF-_-geoIE-_-genAllTix-_-dt000101-_-cmp3215737-_-partticketbis-TT&tduid=a6d91ed9d73aafa76b2e31c4be3c1457&utm_content=link">
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">08</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title">Bayern Munich vs Stuttgart</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Munich, Allianz Arena</b>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>17:30Pm</b>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a href="https://www.stubhub.ie/1-fc-union-berlin-tickets-1-fc-union-berlin-berlin-stadion-an-der-alten-forsterei-14-5-2022/event/104900064/?gcid=chAFF-_-geoIE-_-genAllTix-_-dt000101-_-cmp3215737-_-partticketbis-TT&tduid=a6d91ed9d73aafa76b2e31c4be3c1457&utm_content=link">
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">14</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title"><span></span>Union Berlin vs Bochum</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: An der Alten Försterei (Berlin)</b>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>15:30Pm</b>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a href="https://www.footballticket.club/augsburg-furth-tickets-bundesliga/">
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">14</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title"><span></span>AUGSBURG - FÜRTH</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Augsburg, WWK Arena</b>>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>15:30Pm</b>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a href="https://www.footballticket.club/bundesliga-tickets/">
+  <div class="event">
+    <div class="event-left">
+      <div class="event-date">
+        <div class="date">{% trans "Bookings" %}</div>
+        <div class="month"></div>
+      </div>
+    </div>
+
+    <div class="event-right">
+      <h3 class="event-title">{% trans "For more bookings Click here" %}</h3>
+
+      <div class="event-description">
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+
+    <h3 class="year">{% trans "Cricket- T20 Leagues" %}</h3>
+  <a href="https://in.bookmyshow.com/mumbai/sports/tata-indian-premier-league-2022/ET00325171">
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">01</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title">Delhi Capitals vs Lucknow Super Giants</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Wankhede Stadium, Mumbai</b>>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>11:00Am</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">01</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title">Sunrise Hyderabad vs Chennai Super Kings</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Maharastra Cricket Association, Pune</b>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>3:00Pm</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">04</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title">Royal Challengers Banglore vs Chennai Super Kings</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Maharastra Cricket Association, Pune</b>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>3:00Pm</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">21</div>
+          <div class="month">{% trans "May" %}</div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title">Mumbai Indians vs Delhi capitals</h3>
+
+        <div class="event-description">
+          <b>{% trans "Venue" %}: Wankhede Stadium, Mumbai
+          </b>
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>3:00Pm</b>
+        </div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="event-left">
+        <div class="event-date">
+          <div class="date">Finals</div>
+          <div class="month"></div>
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title">{% trans "For more bookings Click here" %}</h3>
+
+        <div class="event-description">
+        </div>
+
+        <div class="event-timing">
+          <img src="images/time.png" alt="" /> <b>3:00Pm</b>
+        </div>
+      </div>
+    </div>
+  </a>
+  </div>
+
+
+
+
+</body>
+
+</html>
