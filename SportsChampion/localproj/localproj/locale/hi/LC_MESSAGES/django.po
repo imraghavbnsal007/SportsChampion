@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 13:37+0100\n"
-"PO-Revision-Date: 2022-04-21 03:52+0100\n"
+"PO-Revision-Date: 2022-05-02 14:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi\n"
@@ -321,3 +321,12 @@ msgstr "संपर्क बिक्री"
 
 msgid "View Plans"
 msgstr "योजनाएं देखें"
+
+msgid "choose color"
+msgstr "रंग चुनें"
+
+msgid "Cricket"
+msgstr "क्रिकेट"
+
+msgid "Finals"
+msgstr "फाइनल"

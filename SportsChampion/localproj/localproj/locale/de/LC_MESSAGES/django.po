@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 13:37+0100\n"
-"PO-Revision-Date: 2022-04-21 03:38+0100\n"
+"PO-Revision-Date: 2022-05-02 14:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -122,7 +122,7 @@ msgid "Breaking News"
 msgstr "Aktuelle Nachrichten"
 
 msgid "Liverpool vs Manchester United: Who would make it into a combined XI between the sides? -Would Cristiano Ronaldo get in ahead of out-of-form Mohamed Salah? Does David de Gea get in ahead of Alisson in goal? "
-msgstr "Liverpool gegen Manchester United: Wer würde es in eine kombinierte Startelf zwischen den Mannschaften schaffen? -Würde Cristiano Ronaldo vor dem außer Form geratenen Mohamed Salah einsteigen? Setzt sich David de Gea im Tor vor Alisson durch?"
+msgstr "Liverpool vs Manchester United: Wer würde es in eine kombinierte Elf zwischen den Mannschaften schaffen? - Würde Cristiano Ronaldo vor Mohamed Salah aus der Form geraten? Kommt David de Gea vor Alisson im Tor ein? "
 
 msgid "Fernandes involved in car crash"
 msgstr "Fernandes in Autounfall verwickelt"
@@ -144,7 +144,6 @@ msgstr "England und Neuseeland werden im November-Dezember Pakistan bereisen"
 
 msgid "USA Cricket welcomes 2024 T20 World Cup berth"
 msgstr "USA Cricket heißt Startplatz für die T20-Weltmeisterschaft 2024 willkommen"
-
 
 msgid "NINE EUROPEAN"
 msgstr "NEUN EUROPÄISCHE"
@@ -323,3 +322,11 @@ msgstr "Wenden Sie sich an den Vertrieb"
 msgid "View Plans"
 msgstr "Pläne anzeigen"
 
+msgid "choose color"
+msgstr "wähle eine Farbe"
+
+msgid "Cricket"
+msgstr "Kricket"
+
+msgid "Finals"
+msgstr "Finale"
